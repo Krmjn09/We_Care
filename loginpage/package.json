@@ -1,0 +1,22 @@
+{
+  "name": "we_care",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krmjn09/We_Care.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krmjn09/We_Care/issues"
+  },
+  "homepage": "https://github.com/Krmjn09/We_Care#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
