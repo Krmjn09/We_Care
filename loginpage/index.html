@@ -26,11 +26,11 @@
               ><i class="fa-brands fa-linkedin-in"></i
             ></a>
           </div>
-          <span>or use your email for registeration</span>
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
-          <button>Sign Up</button>
+          <span>or use your email for registration</span>
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Password" required minlength="8" maxlength="20" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,20}$" title="Password must contain at least 8 characters, including one uppercase letter, one lowercase letter, one number, and one special character." />
+            <button>Sign Up</button>
         </form>
       </div>
       <div class="form-container sign-in">
@@ -47,8 +47,8 @@
             ></a>
           </div>
           <span>or use your email password</span>
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Password" required />
           <a href="#">Forget Your Password?</a>
           <button>Sign In</button>
         </form>
